@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    /* Base Options */
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "target": "ES2022",
+    "verbatimModuleSyntax": true,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "moduleDetection": "force",
+    
+    /* Demoting tsc to linter from transpiler */
+    "moduleResolution": "Bundler",
+    "noEmit": true,
+    
+    /* Non-browser library typings */
+    "lib": ["ES2022"],
+
+    /* Strictness */
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noImplicitAny": true,
+    "noUnusedParameters": true,
+  },
+  "include": [
+    "src"
+  ],
+}
