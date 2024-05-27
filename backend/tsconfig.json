@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "module": "esnext",
     /* Base Options */
     "esModuleInterop": true,
     "skipLibCheck": true,
@@ -8,8 +9,8 @@
     "allowJs": true,
     "resolveJsonModule": true,
     "moduleDetection": "force",
-    
-    /* Demoting tsc to linter from transpiler */
+
+    /* Demoting tsc from transpiler to IDE-based linter */
     "moduleResolution": "Bundler",
     "noEmit": true,
     
@@ -20,8 +21,8 @@
     "strict": true,
     "noUncheckedIndexedAccess": true,
     "noUnusedLocals": true,
-    "noImplicitAny": true,
-    "noUnusedParameters": true,
+    "noImplicitAny": false,
+    
   },
   "include": [
     "src"
